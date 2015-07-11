@@ -22,9 +22,9 @@ public class ConcreteObserved extends Observed {
 
     @Override
     public void notifyObserver() {
-	for(Observer observer : observers) {
-	    observer.update();
-	}
+    	for(Observer observer : observers) {
+    	    observer.update();
+    	}
     }
 
 }
