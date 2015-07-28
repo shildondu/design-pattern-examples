@@ -11,12 +11,12 @@ import com.dxd.observer.impl.ConcreteObserver;
 public class Client {
     
     public static void main(String[] args) {
-	Observed observed = new ConcreteObserved();
-	Observer observer0 = new ConcreteObserver();
-	Observer observer1 = new ConcreteObserver();
-	observed.addObserver(observer0);
-	observed.addObserver(observer1);
-	observed.notifyObserver();
+		Observed observed = new ConcreteObserved();
+		Observer observer0 = new ConcreteObserver();
+		Observer observer1 = new ConcreteObserver();
+		observed.addObserver(observer0);
+		observed.addObserver(observer1);
+		observed.notifyObserver();
     }
     
 }

@@ -13,18 +13,18 @@ public class Multiton {
     
     //私有构造方法
     private Multiton() {
-	super();
+	   super();
     }
     
     //获取实例对象
     public static Multiton getInstance(String key) {
-	if(multitons.containsKey(key)) {
-	    return multitons.get(key);
-	}
-	else {
-	    Multiton multiton = new Multiton();
-	    multitons.put(key, multiton);
-	    return multiton;
-	}
+    	if(multitons.containsKey(key)) {
+    	    return multitons.get(key);
+    	}
+    	else {
+    	    Multiton multiton = new Multiton();
+    	    multitons.put(key, multiton);
+    	    return multiton;
+    	}
     }
 }

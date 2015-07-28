@@ -12,12 +12,12 @@ public class ConcreteObserved extends Observed {
 
     @Override
     public void addObserver(Observer observer) {
-	observers.add(observer);
+	   observers.add(observer);
     }
     
     @Override
     public void removeObserver(Observer observer) {
-	observers.remove(observer);
+	   observers.remove(observer);
     }
 
     @Override

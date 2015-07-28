@@ -12,7 +12,7 @@ public class Prototype implements Cloneable {
     //重写clone方法，改变对象的创建模式
     @Override
     public Object clone() throws CloneNotSupportedException {
-	return super.clone();
+	   return super.clone();
     }
     
     public String getKey() {
