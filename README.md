@@ -1,6 +1,7 @@
 ## Java设计模式
 
 ### 创建模式(Creational Pattern)
+
 - 单例模式(Singlton)
 
 	![Singlton UML](img/singleton.png)
@@ -26,6 +27,15 @@
 	* 当一个系统的产品类是动态加载的，并且产品类具有一定的等级结构。
 
 ### 结构模式(Structural Pattern)
+
+- 合成模式(Composite)(安全式的:将对聚集的处理放在组件层)
+	
+	* 把部分和整体的关系用树结构表示出来。合成模式使得客户端把一个个单独的成分对象和由它们复合而成的合成对象同等对待。
+	
+	* 需要描述对象的部分和整体的等级结构。
+
+	* 需要客户端忽略掉个体构件和组合构件的区别。
+
 - 适配器模式(Adapter)
 	
 	![Adapter UML](img/adapter.png)
@@ -56,6 +66,7 @@
 	* 软件系统不依赖于这些对象的身份，换言之，这些对象是不可分辨的。
 
 ### 行为模式(Behavioral Pattern)
+
 - 观察者模式(Observer)
 
 	![Observer UML](img/observer.png)
