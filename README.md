@@ -29,6 +29,8 @@
 ### 结构模式(Structural Pattern)
 
 - 合成模式(Composite)(安全式的:将对聚集的处理放在组件层)
+
+	![Composite UML)(img/composite.png)
 	
 	* 把部分和整体的关系用树结构表示出来。合成模式使得客户端把一个个单独的成分对象和由它们复合而成的合成对象同等对待。
 	
