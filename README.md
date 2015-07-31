@@ -30,8 +30,8 @@
 
 - 合成模式(Composite)(安全式的:将对聚集的处理放在组件层)
 
-	![Composite UML)(img/composition.png)
-	
+	![Composite UML](img/composition.png)
+
 	* 把部分和整体的关系用树结构表示出来。合成模式使得客户端把一个个单独的成分对象和由它们复合而成的合成对象同等对待。
 	
 	* 需要描述对象的部分和整体的等级结构。
