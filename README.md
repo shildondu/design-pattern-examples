@@ -28,6 +28,12 @@
 
 ### 结构模式(Structural Pattern)
 
+- 代理模式(Proxy)
+
+	![Proxy UML](img/proxy.png)
+
+	* jdk实现：InvocationHandler与Proxy
+
 - 合成模式(Composite)(安全式的:将对聚集的处理放在组件层)
 
 	![Composite UML](img/composition.png)
