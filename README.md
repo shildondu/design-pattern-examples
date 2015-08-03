@@ -32,6 +32,8 @@
 
 	![Proxy UML](img/proxy.png)
 
+	* 代码层次上的代理模式和装饰模式有很大的相似性。
+
 	* jdk实现：InvocationHandler与Proxy
 
 - 合成模式(Composite)(安全式的:将对聚集的处理放在组件层)
