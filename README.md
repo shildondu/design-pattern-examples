@@ -28,6 +28,12 @@
 
 ### 结构模式(Structural Pattern)
 
+- 桥梁模式(Bridge)
+
+	![Bridge UML](img/bridge.png)
+
+	* 将抽象化和实现化脱耦，使得二者可以独立地变化。这里的脱耦时将强关联转换为弱关联。
+
 - 门面模式(Facade)
 
 	![Facade UML](img/facade.png)
