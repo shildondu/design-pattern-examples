@@ -10,17 +10,17 @@ public class Director {
     private Builder builder1;
     
     public Product construct0() {
-	builder0 = new ConcreteBuilder0();
-	builder0.buildPart0();
-	builder0.buildPart1();
-	return builder0.getProduct();
+		builder0 = new ConcreteBuilder0();
+		builder0.buildPart0();
+		builder0.buildPart1();
+		return builder0.getProduct();
     }
     
     public Product construct1() {
-	builder1 = new ConcreteBuilder1();
-	builder1.buildPart0();
-	builder1.buildPart1();
-	return builder1.getProduct();
+		builder1 = new ConcreteBuilder1();
+		builder1.buildPart0();
+		builder1.buildPart1();
+		return builder1.getProduct();
     }
     
 }
