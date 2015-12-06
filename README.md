@@ -2,11 +2,11 @@
 
 ### 目录
 
-* [创建模式(Creational Pattern)](##创建模式(Creational Pattern))
-* [结构模式(Structural Pattern)](##结构模式(Structural Pattern))
-* [行为模式(Behavioral Pattern)](##行为模式(Behavioral Pattern))
+* [创建模式(Creational Pattern)](##cp)
+* [结构模式(Structural Pattern)](##sp)
+* [行为模式(Behavioral Pattern)](##bp)
 
-### 创建模式(Creational Pattern)
+<h3 id="cp">创建模式(Creational Pattern)</h3>
 
 - 单例模式(Singlton)
 
@@ -34,7 +34,7 @@
 
 	* 当一个系统的产品类是动态加载的，并且产品类具有一定的等级结构。
 
-### 结构模式(Structural Pattern)
+<h3 id="sp">结构模式(Structural Pattern)</h3>
 
 - 桥梁模式(Bridge)
 
@@ -99,7 +99,7 @@
 
 	* 软件系统不依赖于这些对象的身份，换言之，这些对象是不可分辨的。
 
-### 行为模式(Behavioral Pattern)
+<h3 id="bp">行为模式(Behavioral Pattern)</h3>
 
 - 观察者模式(Observer)
 
