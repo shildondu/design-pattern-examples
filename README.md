@@ -2,9 +2,9 @@
 
 ### 目录
 
-* [创建模式(Creational Pattern)](#cp)
-* [结构模式(Structural Pattern)](#sp)
-* [行为模式(Behavioral Pattern)](#bp)
+* [创建模式(Creational Pattern)--7个](#cp)
+* [结构模式(Structural Pattern)--8个](#sp)
+* [行为模式(Behavioral Pattern)--8个](#bp)
 
 <h3 id="cp">创建模式(Creational Pattern)</h3>
 
