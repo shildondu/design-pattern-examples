@@ -113,7 +113,7 @@
 	
 	* 把请求一个操作的对象与知道怎么执行一个操作的对象分割开。
 
-	* 使用命令模式作为Callback在面向对象系统的替代。这里Callback讲的便是先将一个函数登记上，然后在以后调用此函数。
+	* 使用命令模式作为Callback在面向对象系统的替代。
 - 责任链模式(Chain of Responsibility)
 
 	![Chain of Responsibility UML](img/chain-of-responsibility.png)
